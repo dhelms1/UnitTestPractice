@@ -103,12 +103,12 @@ TEST(PracticeTest, deede_string) {
 	ASSERT_EQ(testObj.isPalindrome("deede"), false);
 }
 
-TEST(PracticeTest, t_string) {
+TEST(PracticeTest, single_string) {
 	Practice testObj;
 	ASSERT_EQ(testObj.isPalindrome("t"), true);
 }
 
 TEST(PracticeTest, blank_string) {
 	Practice testObj;
-	ASSERT_EQ(testObj.isPalindrome(" "), false);
+	ASSERT_EQ(testObj.isPalindrome(""), false);
 }
