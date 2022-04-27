@@ -107,3 +107,8 @@ TEST(PracticeTest, t_string) {
 	Practice testObj;
 	ASSERT_EQ(testObj.isPalindrome("t"), true);
 }
+
+TEST(PracticeTest, blank_string) {
+	Practice testObj;
+	ASSERT_EQ(testObj.isPalindrome(" "), false);
+}
